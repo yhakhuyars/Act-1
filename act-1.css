@@ -1,0 +1,36 @@
+body {
+    background-image: url("https://images3.alphacoders.com/134/1341030.png");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Times New Roman';
+  }
+  
+  .awesomesauce {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .photo {
+    text-align: center;
+    margin: 0 auto;
+  }
+  
+  .photo img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  figcaption {
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 5px;
+    color: rgb(0, 0, 0);
+  }
+  
